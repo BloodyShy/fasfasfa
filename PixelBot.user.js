@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Coi Pixel Bot
 // @namespace    http://tampermonkey.net/
-// @version      3.7
+// @version      4.0
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks
 // @match        https://pixel.vkforms.ru/*
+// @downloadURL  https://github.com/BloodyShy/fasfasfa/blob/master/PixelBot.user.js
+// @updateURL    https://github.com/BloodyShy/fasfasfa/blob/master/PixelBot.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -13,7 +15,7 @@ function CoiPixelBot() {
 
     CoiPixelBot.url = {
         script: 'https://github.com/BloodyShy/fasfasfa/blob/master/PixelBot.user.js',
-        image:  'https://i.imgur.com/wjZx1JP.png'
+        image:  'https://raw.githubusercontent.com/BloodyShy/fasfasfa/master/wjZx1J2.png'
     };
 
     CoiPixelBot.refreshTime = 60;
@@ -86,7 +88,7 @@ function CoiPixelBot() {
         CoiPixelBot.img = new Image();
         CoiPixelBot.img.crossOrigin = "Anonymous";
         CoiPixelBot.img.onload = function() {
-            CoiPixelBot.setState("Версия 3.7. Улучшил рандом. Перезагрузил зону защиты.");
+            CoiPixelBot.setState("Версия 4.0. Перезагрузил зону защиты.");
             if (CoiPixelBot.inited) CoiPixelBot.getFullData();
         };
         CoiPixelBot.img.src = CoiPixelBot.urlGen.image();
