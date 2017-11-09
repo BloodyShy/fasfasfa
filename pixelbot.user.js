@@ -5,6 +5,8 @@
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks
 // @match        https://pixel.vkforms.ru/*
+// @downloadURL  https://github.com/BloodyShy/fasfasfa/blob/master/PixelBot.user.js
+// @updateURL    https://github.com/BloodyShy/fasfasfa/blob/master/PixelBot.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -12,7 +14,7 @@ function CoiPixelBot() {
     window.CoiPixelBot = CoiPixelBot;
 
     CoiPixelBot.url = {
-        script: '',
+        script: 'https://github.com/BloodyShy/fasfasfa/blob/master/PixelBot.user.js',
         image:  'https://raw.githubusercontent.com/BloodyShy/fasfasfa/master/wjZx1JP.png'
     };
 
